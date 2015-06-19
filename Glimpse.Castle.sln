@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle", "Glimpse.Castle\Glimpse.Castle.csproj", "{DDD83FBC-333A-4314-83CD-5421308DEC31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle.SampleWeb", "Glimpse.Castle.SampleWeb\Glimpse.Castle.SampleWeb.csproj", "{28DFF608-174D-4255-9654-2ADEC66C36F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
