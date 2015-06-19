@@ -23,7 +23,11 @@ namespace Glimpse.Castle
             var data = new List<object[]> { new object[] { proxy.Extensions.Select(ex => ex.Name) } };
             data.AddRange(proxy.Extensions.Select(item => new[] {item.Value}));
 
-            return data;
+            return proxy.Extensions.Select(ex => new
+            {
+                ex.Name,
+                ex.Value
+            }).ToList();
         }
 
         public override string Name

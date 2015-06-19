@@ -20,6 +20,9 @@ namespace Glimpse.Castle.SampleWeb
             _container = new WindsorContainer()
                 .Install(FromAssembly.This());
             var controllerFactory = new WindsorControllerFactory(_container.Kernel);
+
+            _container.ActivateGlimpse();
+
             ControllerBuilder.Current.SetControllerFactory(controllerFactory);
         }
 
