@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CastleGlimpseExtensions.cs" />
     <Compile Include="CastleGlimpsePlugin.cs" />
     <Compile Include="KernelDebuggerProxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
