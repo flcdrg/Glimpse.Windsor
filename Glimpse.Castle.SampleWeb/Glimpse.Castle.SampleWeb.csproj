@@ -26,6 +26,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>12.0</OldToolsVersion>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -255,9 +256,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Glimpse.Castle\Glimpse.Castle.csproj">
+    <ProjectReference Include="..\Glimpse.Castle.NET40\Glimpse.Castle.NET4.csproj">
       <Project>{ddd83fbc-333a-4314-83cd-5421308dec31}</Project>
-      <Name>Glimpse.Castle</Name>
+      <Name>Glimpse.Castle.NET4</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

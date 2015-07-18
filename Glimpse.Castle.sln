@@ -3,24 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle", "Glimpse.Castle\Glimpse.Castle.csproj", "{DDD83FBC-333A-4314-83CD-5421308DEC31}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle.SampleWeb", "Glimpse.Castle.SampleWeb\Glimpse.Castle.SampleWeb.csproj", "{28DFF608-174D-4255-9654-2ADEC66C36F9}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Glimpse.Castle", "Glimpse.Castle\Glimpse.Castle.shproj", "{EF728D11-14F2-4A18-8F09-9646616AF9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle.NET4", "Glimpse.Castle.NET40\Glimpse.Castle.NET4.csproj", "{DDD83FBC-333A-4314-83CD-5421308DEC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle.NET45", "Glimpse.Castle.NET45\Glimpse.Castle.NET45.csproj", "{15300E4C-4C85-48BC-9F8B-80ABF29A5A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glimpse.Castle.NET46", "Glimpse.Castle.NET46\Glimpse.Castle.NET46.csproj", "{86A0C620-1694-4F5C-90AD-7B0C9342A900}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Glimpse.Castle\Glimpse.Castle.projitems*{ddd83fbc-333a-4314-83cd-5421308dec31}*SharedItemsImports = 4
+		Glimpse.Castle\Glimpse.Castle.projitems*{15300e4c-4c85-48bc-9f8b-80abf29a5a35}*SharedItemsImports = 4
+		Glimpse.Castle\Glimpse.Castle.projitems*{86a0c620-1694-4f5c-90ad-7b0c9342a900}*SharedItemsImports = 4
+		Glimpse.Castle\Glimpse.Castle.projitems*{ef728d11-14f2-4a18-8f09-9646616af9fb}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28DFF608-174D-4255-9654-2ADEC66C36F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD83FBC-333A-4314-83CD-5421308DEC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15300E4C-4C85-48BC-9F8B-80ABF29A5A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15300E4C-4C85-48BC-9F8B-80ABF29A5A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15300E4C-4C85-48BC-9F8B-80ABF29A5A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15300E4C-4C85-48BC-9F8B-80ABF29A5A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A0C620-1694-4F5C-90AD-7B0C9342A900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A0C620-1694-4F5C-90AD-7B0C9342A900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A0C620-1694-4F5C-90AD-7B0C9342A900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A0C620-1694-4F5C-90AD-7B0C9342A900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
