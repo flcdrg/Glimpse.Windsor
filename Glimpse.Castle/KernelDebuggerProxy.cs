@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+
 using CastleWindsor::Castle.MicroKernel;
 using CastleWindsor::Castle.Windsor;
 using CastleWindsor::Castle.Windsor.Diagnostics;
@@ -26,7 +27,8 @@ namespace Glimpse.Castle
                 throw new ArgumentNullException("kernel");
             }
             _extensions =
-                (IEnumerable<IContainerDebuggerExtension>)(kernel.GetSubSystem(SubSystemConstants.DiagnosticsKey) as IContainerDebuggerExtensionHost) ??
+                (IEnumerable<IContainerDebuggerExtension>)
+                    (kernel.GetSubSystem(SubSystemConstants.DiagnosticsKey) as IContainerDebuggerExtensionHost) ??
                 new IContainerDebuggerExtension[0];
         }
 
@@ -34,10 +36,7 @@ namespace Glimpse.Castle
         [DebuggerBrowsable(DebuggerBrowsableState.RootHidden)]
         public DebuggerViewItem[] Extensions
         {
-            get
-            {
-                return _extensions.SelectMany(e => e.Attach()).ToArray();
-            }
+            get { return _extensions.SelectMany(e => e.Attach()).ToArray(); }
         }
     }
 }

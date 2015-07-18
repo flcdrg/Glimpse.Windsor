@@ -1,14 +1,13 @@
 ﻿extern alias CastleWindsor;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
+
 using CastleWindsor::Castle.Windsor;
+
 using Glimpse.Core.Extensibility;
 
 namespace Glimpse.Castle
 {
-    extern alias CastleWindsor;
-
     public class CastleGlimpsePlugin : TabBase
     {
         internal static IWindsorContainer Container;
