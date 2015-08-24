@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Glimpse.Castle.SampleWeb.Controllers
+namespace Glimpse.Windsor.SampleWeb.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,4 +1,4 @@
-# Glimpse.Castle
+# Glimpse.Windsor
 A plugin for Glimpse (http://getglimpse.com/) to display Castle Windsor diagnostic information
 
 This is a work in progress, but pretty close to being ready.

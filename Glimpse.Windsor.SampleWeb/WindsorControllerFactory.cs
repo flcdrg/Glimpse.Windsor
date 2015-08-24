@@ -3,7 +3,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Castle.MicroKernel;
 
-namespace Glimpse.Castle.SampleWeb
+namespace Glimpse.Windsor.SampleWeb
 {
     public class WindsorControllerFactory : DefaultControllerFactory
     {

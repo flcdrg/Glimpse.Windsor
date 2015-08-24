@@ -6,7 +6,7 @@
     <SharedGUID>ef728d11-14f2-4a18-8f09-9646616af9fb</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Glimpse.Castle</Import_RootNamespace>
+    <Import_RootNamespace>Glimpse.Windsor</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AssemblyInfo.cs" />

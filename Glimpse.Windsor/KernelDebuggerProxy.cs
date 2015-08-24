@@ -9,7 +9,7 @@ using CastleWindsor::Castle.Windsor;
 using CastleWindsor::Castle.Windsor.Diagnostics;
 using CastleWindsor::Castle.Windsor.Diagnostics.DebuggerViews;
 
-namespace Glimpse.Castle
+namespace Glimpse.Windsor
 {
     internal class KernelDebuggerProxy
     {

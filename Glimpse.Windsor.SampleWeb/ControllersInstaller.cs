@@ -3,7 +3,7 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 
-namespace Glimpse.Castle.SampleWeb
+namespace Glimpse.Windsor.SampleWeb
 {
     public class ControllersInstaller : IWindsorInstaller
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Glimpse.Castle.SampleWeb
+namespace Glimpse.Windsor.SampleWeb
 {
     public static class WebApiConfig
     {

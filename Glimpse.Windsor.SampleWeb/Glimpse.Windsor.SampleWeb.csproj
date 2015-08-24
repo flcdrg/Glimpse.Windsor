@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Glimpse.Castle.SampleWeb</RootNamespace>
-    <AssemblyName>Glimpse.Castle.SampleWeb</AssemblyName>
+    <RootNamespace>Glimpse.Windsor.SampleWeb</RootNamespace>
+    <AssemblyName>Glimpse.Windsor.SampleWeb</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -256,9 +256,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Glimpse.Castle.NET40\Glimpse.Castle.NET4.csproj">
+    <ProjectReference Include="..\Glimpse.Windsor.NET40\Glimpse.Windsor.NET4.csproj">
       <Project>{ddd83fbc-333a-4314-83cd-5421308dec31}</Project>
-      <Name>Glimpse.Castle.NET4</Name>
+      <Name>Glimpse.Windsor.NET4</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -6,7 +6,7 @@ using CastleWindsor::Castle.Windsor;
 
 using Glimpse.Core.Extensibility;
 
-namespace Glimpse.Castle
+namespace Glimpse.Windsor
 {
     public class CastleGlimpsePlugin : TabBase
     {

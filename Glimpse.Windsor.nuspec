@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Glimpse.Windsor</id>
+    <version>$version$</version>
+    <title>Glimpse extension for Castle Windsor</title>
+    <authors>David Gardiner</authors>
+    <owners>flcdrg</owners>
+    <licenseUrl>https://raw.githubusercontent.com/flcdrg/Glimpse.Windsor/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/flcdrg/Glimpse.Windsor</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An extension for Glimpse that provides diagnostic information for the Castle Windsor inversion of control container.</description>
+    <releaseNotes>Preview release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Glimpse Castle Windsor</tags>
+  </metadata>
+</package>

@@ -3,7 +3,7 @@ using System;
 
 using CastleWindsor::Castle.Windsor;
 
-namespace Glimpse.Castle
+namespace Glimpse.Windsor
 {
     public static class CastleGlimpseExtensions
     {
