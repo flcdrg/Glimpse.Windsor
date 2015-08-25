@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
+    
     <id>Glimpse.Windsor</id>
     <version>$version$</version>
     <title>Glimpse extension for Castle Windsor</title>
@@ -13,5 +14,16 @@
     <releaseNotes>Preview release</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Glimpse Castle Windsor</tags>
+    <dependencies>
+      <dependency id="Castle.Windsor" version="3.0.0" />
+    </dependencies>
+
+    <files>
+      <file src="Glimpse.Windsor.NET4\bin\Release\Glimpse.Windsor.dll" target="lib\net40" />
+      <file src="Glimpse.Windsor.NET45\bin\Release\Glimpse.Windsor.dll" target="lib\net45" />
+      <file src="Glimpse.Windsor.NET46\bin\Release\Glimpse.Windsor.dll" target="lib\net46" />
+    </files>
   </metadata>
+
+
 </package>
