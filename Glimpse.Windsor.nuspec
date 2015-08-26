@@ -17,13 +17,11 @@
     <dependencies>
       <dependency id="Castle.Windsor" version="3.0.0" />
     </dependencies>
+  </metadata>
 
     <files>
-      <file src="Glimpse.Windsor.NET4\bin\Release\Glimpse.Windsor.dll" target="lib\net40" />
+      <file src="Glimpse.Windsor.NET40\bin\Release\Glimpse.Windsor.dll" target="lib\net40" />
       <file src="Glimpse.Windsor.NET45\bin\Release\Glimpse.Windsor.dll" target="lib\net45" />
       <file src="Glimpse.Windsor.NET46\bin\Release\Glimpse.Windsor.dll" target="lib\net46" />
     </files>
-  </metadata>
-
-
 </package>
