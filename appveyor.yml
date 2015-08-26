@@ -1,0 +1,19 @@
+install:
+  - choco install gitversion.portable -pre -y
+
+assembly_info:
+  patch: false
+
+configuration:
+  - Release
+before_build:
+  - nuget restore
+  - ps: gitversion /l console /output buildserver /updateAssemblyInfo
+
+build:
+  project: Glimpse.Windsor.sln
+
+after_build:
+  - cmd: ECHO nuget pack Glimpse.Windsor.nuspec -version "%GitVersion_NuGetVersion%" -prop "target=%CONFIGURATION%"
+  - cmd: nuget pack Glimpse.Windsor.nuspec -version "%GitVersion_NuGetVersion%" -prop "target=%CONFIGURATION%"
+  - cmd: appveyor PushArtifact "Glimpse.Windsor.%GitVersion_NuGetVersion%.nupkg"
