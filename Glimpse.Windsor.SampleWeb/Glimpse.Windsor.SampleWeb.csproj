@@ -154,6 +154,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="GlimpseSecurityPolicy.cs" />
+    <Compile Include="Strange\IThing.cs" />
+    <Compile Include="Strange\OtherInstaller.cs" />
+    <Compile Include="Strange\Thing.cs" />
     <Compile Include="WindsorControllerFactory.cs" />
     <Compile Include="ControllersInstaller.cs" />
     <Compile Include="Controllers\HomeController.cs" />

@@ -10,8 +10,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AssemblyInfo.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)CastleGlimpseExtensions.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)CastleGlimpsePlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WindsorGlimpseExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WindsorGlimpsePlugin.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)KernelDebuggerProxy.cs" />
   </ItemGroup>
 </Project>
