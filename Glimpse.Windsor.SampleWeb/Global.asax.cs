@@ -18,11 +18,13 @@ namespace Glimpse.Windsor.SampleWeb
 
         private static void BootstrapContainer()
         {
-            _container = new WindsorContainer()
-                .Install(FromAssembly.This());
-            var controllerFactory = new WindsorControllerFactory(_container.Kernel);
+            _container = new WindsorContainer();
 
             _container.ActivateGlimpse();
+
+            _container.Install(FromAssembly.This());
+            var controllerFactory = new WindsorControllerFactory(_container.Kernel);
+
 
             ControllerBuilder.Current.SetControllerFactory(controllerFactory);
         }
